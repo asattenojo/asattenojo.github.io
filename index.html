@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/form.css">
+    <title>じゃんけん</title>
+</head>
+
+<body>
+
+    <div class="vsbox">
+        <div class="block">
+            <img src="image/mark_question.png" alt="" id="your_hand" class="hand">
+            <p>your hand</p>
+        </div>
+        <div class="block">
+            <p id="vs">vs</p>
+        </div>
+        <div class="block">
+            <img src="./image/mark_question.png" alt="" id="enemy_hand" class="hand">
+            <p>enemy hand</p>
+        </div>
+    </div>
+    <div>
+    <p id="result"></p>
+    </div>
+    <div>
+       <p>chose your hand!!</p>
+        <img src="./image/janken_gu.png" alt="ぐー" class="j_img" onclick="janken(0)">
+        <img src="./image/janken_choki.png" alt="ちょき" id="choki" class="j_img" onclick="janken(1)">
+        <img src="./image/janken_pa.png" alt="ぱー" id="pa-" class="j_img" onclick="janken(2)">
+    </div>
+    <script src="javascript/index.js"></script>
+</body>
