@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./css/jikanwari.css">
+        <title>メール</title>
+    </head>
+    <body>
+        <p id="time">残り時間：</p>
+        <ul>
+            <li><a href="./student.html">トップページ</a> &gt;</li>
+            <li><a href="./jikanwari.html">教師一覧</a></li>
+
+        </ul>
+       <div>
+           
+        <p class="block">to:</p>
+        <p class="block">gokuwaruo@.eits.jp</p>
+       </div>
+       <div>
+           <p class="block">from:</p>
+           <p class="block" onclick="henkou()" id="henkou">yamadatarou.eits.jp</p>
+       </div>
+       
+       <p>極　悪夫先生</p>
+       <p>美子です♥．今からセンセーに会いたいな～．駅で待ってるから早く来てね～</p>
+       
+        <button type="button" tabindex="0" accesskey="s" onclick="sousin()">送信</button>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="js/mail.js"></script>
+        <script src="./js/timer.js"></script>
+    </body>
+</html>
