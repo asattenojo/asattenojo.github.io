@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+.border{
+    border: solid;
+    display: inline-block;
+    margin-top: 0px;
+}
+
+
+/*
+.j_img{
+    width: auto;
+    height: 150px;
+}
+
+
+div{
+    text-align: center
+}
+
+.vsbox{
+    margin-bottom: 50px;
+}
+.block{
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+}
+#result{
+    font-size: 2em;
+    color: coral;
+}
+#vs{
+    font-size: 2em;
+    color: red;
+}
+
+.hand{
+    height: 200px;
+}*/

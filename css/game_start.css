@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+meta {
+}
+link {
+}
+title {
+}
+div {
+    margin-top: 300px;
+    text-align: center;
+}
+div button {
+    width: 300px;
+    height: 80px;
+    
+    font-size: 1.7em;
+    color: white;
+    background-color: dodgerblue;
+}

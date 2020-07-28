@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+meta {}
+
+link {}
+
+title {}
+
+header {}
+
+header h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {}
+
+div {}
+
+div p {
+    color: white;
+}
+
+li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}

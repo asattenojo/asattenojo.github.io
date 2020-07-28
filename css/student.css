@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+
+
+.left_side{
+    display: inline-block;
+}
+
+.right_side{
+    display: inline-block;
+    width: 80%;
+    height: 100px;
+/*    text-align: center;*/
+}
+
+
+#ganba{
+/*    margin-right: 0px;*/
+    height: 50px;
+    width: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+.right_side {
+}
+.right_side #ganba {
+}
+.right_side div {
+    text-align: center;
+    width: 100%;
+}

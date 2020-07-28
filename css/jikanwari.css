@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+meta {}
+
+title {}
+
+h1 {
+    text-align: center;
+}
+
+h2 {}
+
+table {
+    width: 100%;
+}
+
+table tbody {}
+
+table tr {}
+
+table th {}
+
+table td {
+    text-align: center;
+    width: 18%;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+}
+
+li{
+    display: inline-block;
+}
+.block{
+    display: inline-block;
+}
